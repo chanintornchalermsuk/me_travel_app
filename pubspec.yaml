@@ -35,6 +35,19 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.4.0   #ไอคอนแปลกๆ จากเว็บไซต์ fontawesome.com
+  url_launcher: ^6.1.10           #เปิดเว็บ โทรศัพท์ ส่งsms 
+  flutter_launcher_icons: ^0.12.0 #สร้างไอคอนของแอป
+  shared_preferences: ^2.0.18     #บันทึกข้อมูลในเครื่องแบบไม่ซับซ้อน
+  google_maps_flutter: ^2.2.5     #ใช้ Google Map ภายในแอปฯ
+  image_picker: ^0.8.7            #เปิดใช้กล้อง ใช้แกลอรี่
+  geolocator: ^9.0.2              #ดึงพิกัดตำแหน่งปัจจุบัน
+  intl: ^0.18.0                   #format ของข้อมูลต่างๆ 
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png" 
 
 dev_dependencies:
   flutter_test:
@@ -62,6 +75,8 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

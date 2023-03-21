@@ -14,4 +14,4 @@ class _TravelRecordUIState extends State<TravelRecordUI> {
   Widget build(BuildContext context) {
     return Scaffold();
   }
-}
+} 
